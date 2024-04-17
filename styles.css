@@ -1,0 +1,17 @@
+body {
+  background-color:rgba(231, 150, 229, 0.665);
+  color:purple;
+  width:60vh;
+  margin:0 auto;
+  font-family:'Courier New', Courier, monospace;
+}
+
+input, textarea {
+  background-color:rgb(225, 186, 225);
+  border:none;
+  width:100%
+}
+
+.inline {
+  width: unset;
+ }

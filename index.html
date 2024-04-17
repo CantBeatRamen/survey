@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel='stylesheet' href='styles.css'>
+<meta charset='UTF-8'>
+<meta name='viewport' context='width=device-width initial-scale=1' />
+<title>Survey Form</title>
+</head>
+<body>
+<div class='starter-text'>
+  <h1 id='title'>Survey Form</h1>
+  <p id='description'>Survey made by CantBeatRamen</p>
+</div>
+<form id='survey-form'>
+<div class='survey-information'>
+  <label id='name-label'>Name<input type='text' id='name' placeholder='Name' required></label>
+</div>
+<div class='survey-information'>
+  <label id='email-label'>Email<input type='email' id='email' placeholder='Email' required></label>
+</div>
+<div class='survey-information'>
+  <label id='number-label'>Age<input type='number' id='number' min='13' max='99' placeholder='Age' value='age'></label>
+</div>
+<div class='survey-information'>
+  <p>What type of animal person are you?</p>
+  <label>
+    <select id='dropdown'>
+      <option disabled selected>(Select one)</option>
+      <option>Dog</option>
+      <option>Cat</option>
+      <option>Bird</option>
+      <option>Turtle</option>
+      <option>Snake</option>
+      <option>None of the above</option>
+    </select>
+  </label>
+</div>
+<div class='survey-information'>
+  <p>Am I your friend</p>
+  <label><input type='radio' value='Yes' name='yes-no' class='inline'checked>Yes of course your so cool and awesome</label>
+  <br>
+  <label><input type='radio' value='No' name='yes-no' class='inline'>Nah you are the worst thing on the planet </label>
+</div>
+<div class='survey-information'>
+  <p>What do you own?</p>
+  <label><input class='inline' value='nintendo-switch' type='checkbox'>Nintendo Switch</label>
+  <br>
+  <label><input class='inline' value='cookies' type='checkbox'>A buncha cookies</label>
+  <br>
+  <label><input class='inline' value='balloons' type='checkbox'>Bunch O' Balloons</label>
+  <br>
+  <label><input class='inline' value='snakees' type='checkbox'>Snackees</label>
+</div>
+<div class='survey-information'>
+  <label>Anything else I should know?<textarea placeholder='Tell me more about yourself : )'></textarea></label>
+</div>
+<p>Note: This survey doesnt take any information lmao</p>
+<div class='survey-information'>
+  <input type='submit' id='submit'>
+</div>
+
+</form>
+</body>
+<footer>
+</footer>
+</html>
