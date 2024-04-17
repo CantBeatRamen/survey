@@ -1,7 +1,8 @@
 body {
   background-color:rgba(231, 150, 229, 0.665);
   color:purple;
-  width:60%;
+  width:60vw;
+  height:60vh;
   margin:0 auto;
   font-family:'Courier New', Courier, monospace;
 }
