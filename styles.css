@@ -16,3 +16,7 @@ input, textarea {
 .inline {
   width: unset;
  }
+
+.starter-text {
+  text-align:center;
+}
